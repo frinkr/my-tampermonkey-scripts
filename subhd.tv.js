@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         subhd.tv 去广告
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/frinkr/my-scripts
 // @version      0.1
 // @description  去除顶层巨大的广告
 // @author       frinkr
