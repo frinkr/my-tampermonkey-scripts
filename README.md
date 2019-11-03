@@ -1,2 +1,2 @@
-# my-script
+# my-scripts
 My Tampermonkey scripts
