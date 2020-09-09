@@ -13,8 +13,10 @@
     'use strict';
 
     setInterval(function () {
-        $('div[class=wxc-ab-root]').hide();
+        $('div[class=wxc-ab-root]').remove();
+        $('div[class=fc-ab-root]').remove();
         document.body.style.position = '';
-        document.body.style.top = ''
+        document.body.style.top = '';
+        document.body.style.overflow = 'auto';
     }, 500)
 })();
