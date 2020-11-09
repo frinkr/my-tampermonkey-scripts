@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         文学城去广告
 // @namespace    https://github.com/frinkr/my-scripts
-// @version      0.1
+// @version      0.2
 // @description  文学城Kill Ads
 // @author       frinkr
 // @match        *://www.wenxuecity.com/*
@@ -13,10 +13,8 @@
     'use strict';
 
     setInterval(function () {
-        $('div[class=wxc-ab-root]').remove();
-        $('div[class=fc-ab-root]').remove();
+        $('div[class=wxc-ab-root]').hide();
         document.body.style.position = '';
-        document.body.style.top = '';
-        document.body.style.overflow = 'auto';
+        document.body.style.top = ''
     }, 500)
 })();
